@@ -8,9 +8,9 @@ import {
 } from 'react-native'
 import { Permissions, ImagePicker } from 'expo';
 
+// To Upload, reference: https://medium.com/google-cloud/upload-images-to-google-cloud-storage-with-react-native-and-expressjs-61b8874abc49
 
 const SERVER_URL = 'http://192.168.0.161:8080/image-upload' //type hostname -I in CL to find your IP
-// const SERVER_URL = 'http://192.168.0.135:19000/image-upload';
 
 class LoadPhoto extends React.Component {
   state = {
@@ -72,8 +72,6 @@ class LoadPhoto extends React.Component {
     )
   }
 }
-
-
 
 export default class StartImagePicker extends React.Component {
   //initialize state

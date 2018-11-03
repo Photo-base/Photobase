@@ -1,6 +1,4 @@
 const jwt = require('jsonwebtoken');
-const dotenv = require('dotenv').config();
-
 class Token {
   // Checks if the token is valid
   verify(token) {
